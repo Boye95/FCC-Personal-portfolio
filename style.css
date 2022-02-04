@@ -67,7 +67,7 @@ html {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
                         "fueler react home"
-                        "survey landing tribute"
+                        "survey landing tributei"
                         ;
     width: 100%;
     gap: 2rem;
