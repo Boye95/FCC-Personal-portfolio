@@ -72,12 +72,10 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    /* grid-template-areas: 
-            "fueler react home"
-            "survey landing tribute";             */
     width: 100%;
     grid-gap: 2rem;
 }
+  
 .project-tile {
     background-color: transparent;
     font-family: 'Ubuntu Mono', monospace;
@@ -118,6 +116,31 @@ html {
 #profile-link:hover {
     background-color: blanchedalmond;
     color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 900px) {
+    #my-project #projects {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .project-tile:hover {
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #navbar {
+        justify-content: center;
+    }
+    #navbar a {
+        text-decoration: none;
+        color: black;
+        width: 100%;
+        text-align: center;
+    }
+    #my-project #projects {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
 }
 
 #contact {
