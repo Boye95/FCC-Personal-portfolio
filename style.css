@@ -138,7 +138,10 @@ html {
 }
 #contact #social a img {
     width: 3rem;
-    
+}
+#contact #social a img:hover {
+    transform: rotate(360deg);
+    transition:  2s ease all;
 }
 #footer {
     display: flex;
