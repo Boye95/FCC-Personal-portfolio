@@ -91,12 +91,16 @@ html {
     height: 80%;
     border-radius: 10px 10px 0 0;
 }
-.project-tile p {
+.project-tile a {
+    text-decoration: none;
+}
+.project-tile a p {
     height: 20%;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
     background-color: blanchedalmond;
 }
 .project-tile p:hover {
