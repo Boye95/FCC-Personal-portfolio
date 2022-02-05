@@ -65,10 +65,14 @@ html {
 #my-project #projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
-                        "fueler react home"
-                        "survey landing tributei"
-                        ;
+            "fueler react home"
+            "survey landing tribute";            
     width: 100%;
     gap: 2rem;
+}
+.project-tile {
+    width: 30px;
+    height: 30px;
 }
